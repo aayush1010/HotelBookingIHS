@@ -3,9 +3,9 @@
 ## Problem Statement
 
 Implement a booking manager against a fixed interface:
-1. `IsRoomAvailable(room, date)` — true if the room is free on that date — **Done**
-2. `AddBooking(guest, room, date)` — books the room, throws if it's already taken or the room id is invalid — **Done**
-3. `GetAvailableRooms(date)` — lists every free room for a given date — **Done**
+1. `IsRoomAvailable(room, date)` — true if the room is free on that date
+2. `AddBooking(guest, room, date)` — books the room, throws if it's already taken or the room id is invalid
+3. `GetAvailableRooms(date)` — lists every free room for a given date
 
 ## Design
 
